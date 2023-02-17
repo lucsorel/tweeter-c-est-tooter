@@ -1,0 +1,24 @@
+
+image::assets/toueeter_c_est_touter.png[]
+
+* un export en pdf du diaporama : link:tweeter_c_est_tooter-Luc_Sorel-Giffo-2023.02.17.pdf[tweeter_c_est_tooter-Luc_Sorel-Giffo-2023.02.17.pdf]
+* un https://drive.google.com/file/d/1a9A64TubAwnob6tU0EOt6fSVagrleWci/view?usp=share_link[enregistrement vidéo de la première session est téléchargeable] (merci Antoine Cailly pour ton application https://acailly.github.io/shrink-my-video/[shrink-my-video] qui m'a permis de diviser par 3 le poids du fichier sans en réduire la qualité).
+
+== Visionner le diaporama
+
+La présentation a été écrite pour être visualisée à travers l'extension https://marketplace.visualstudio.com/items?itemName=flobilosaurus.vscode-asciidoc-slides[flobilosaurus.vscode-asciidoc-slides] pour Codium / vsCode.
+
+. affichez la palette de commandes avec `ctrl shift p`
+. utilisez la commande `Asciidoc Slides: Open Slides in Browser`
+
+Documentation de la https://docs.asciidoctor.org/reveal.js-converter/latest/converter/features/[syntaxe asciidoc pour les présentations].
+
+== Générer un pdf
+
+. utilisez la commande `Asciidoc Slides: Export document as PDF` (ne fonctionne pas toujours)
+
+ou :
+
+. ouvrir la présentation dans le navigateur chromium / chrome
+. rajouter `?print-pdf` à la fin de l'URL
+. lancer l'impression en pdf avec `ctrl p` ou `cmd p`
